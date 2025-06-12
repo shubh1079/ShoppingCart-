@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="totalItem">
+        <h1>Total Items: <span id="totalItem">0</span></h1>
+    </div>
+    <div class="container">
+        <div class="two-button">
+            <button onclick="reset()">Reset</button>
+            <button onclick="addToCart()">Add</button>
+        </div>
+        <div class="cart">
+            <ul id="listOfItems">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(128, 223, 223);
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.two-button{
+    margin-top: 1rem;
+}
+
+.totalItem{
+    margin-left: 45vw;
+}
+
+button{
+    border: none;
+    background-color: rgb(222, 16, 16);
+    background-color: green;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+.cart{
+    margin-top: 2rem;
+}
+.listOfItems{
+    list-style: none;
+}
+li{
+    margin: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
